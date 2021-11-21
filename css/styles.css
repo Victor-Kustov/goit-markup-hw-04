@@ -61,6 +61,10 @@ button {
   border: 0;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -259,10 +263,6 @@ img {
 
 /* ---------------BENEFITS---------------- */
 
-.section {
-  padding: 94px 0;
-}
-
 .benefits-list-title {
   font-weight: 700;
   font-size: 14px;
@@ -288,7 +288,21 @@ img {
   margin-right: 30px;
 }
 
+.benefits-img {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
 /* ------------BUSINESS----------------- */
+
+.businesssection {
+  padding-top: 0;
+}
 
 .business-title,
 .team-title {
